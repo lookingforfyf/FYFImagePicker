@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'FYFImagePicker_Example' do
+  pod 'FYFImagePicker', :path => '../'
+
+  target 'FYFImagePicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
