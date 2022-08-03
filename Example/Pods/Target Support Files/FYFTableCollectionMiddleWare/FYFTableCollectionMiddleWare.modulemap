@@ -1,0 +1,6 @@
+framework module FYFTableCollectionMiddleWare {
+  umbrella header "FYFTableCollectionMiddleWare-umbrella.h"
+
+  export *
+  module * { export * }
+}

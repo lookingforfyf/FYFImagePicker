@@ -1,0 +1,6 @@
+framework module FYFAppAuthorizations {
+  umbrella header "FYFAppAuthorizations-umbrella.h"
+
+  export *
+  module * { export * }
+}

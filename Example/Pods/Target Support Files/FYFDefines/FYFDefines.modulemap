@@ -1,0 +1,6 @@
+framework module FYFDefines {
+  umbrella header "FYFDefines-umbrella.h"
+
+  export *
+  module * { export * }
+}

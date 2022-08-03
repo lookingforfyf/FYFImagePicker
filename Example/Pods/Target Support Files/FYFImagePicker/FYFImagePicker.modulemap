@@ -1,0 +1,6 @@
+framework module FYFImagePicker {
+  umbrella header "FYFImagePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

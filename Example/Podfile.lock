@@ -1,0 +1,39 @@
+PODS:
+  - FYFAppAuthorizations (0.1.0)
+  - FYFDefines (0.1.9)
+  - FYFImagePicker (0.1.0):
+    - FYFAppAuthorizations
+  - FYFTableCollectionMiddleWare (0.1.5):
+    - Masonry
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+
+DEPENDENCIES:
+  - FYFDefines
+  - FYFImagePicker (from `../`)
+  - FYFTableCollectionMiddleWare
+  - MBProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - FYFAppAuthorizations
+    - FYFDefines
+    - FYFTableCollectionMiddleWare
+    - Masonry
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  FYFImagePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FYFAppAuthorizations: 1969afd84d017c6e57033e0fa1064b079e6d612f
+  FYFDefines: 40bb69166169b56dc129db65287b0902892fa0f1
+  FYFImagePicker: ccd518ec5952bee6a1b8008f79b6e805b1836549
+  FYFTableCollectionMiddleWare: 60e05759924dd44973c24576ff1813c6f8896a97
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+
+PODFILE CHECKSUM: 56e69334beccdff66f50c8014cc90d290fd741c8
+
+COCOAPODS: 1.11.3

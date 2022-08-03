@@ -5,6 +5,10 @@ platform :ios, '10.0'
 target 'FYFImagePicker_Example' do
   pod 'FYFImagePicker', :path => '../'
 
+  pod 'MBProgressHUD'
+  pod 'FYFTableCollectionMiddleWare'
+  pod 'FYFDefines'
+  
   target 'FYFImagePicker_Tests' do
     inherit! :search_paths
 

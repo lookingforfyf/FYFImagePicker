@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F786A1A289A7AD00055F70A /* FYFMovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F786A08289A7ACF0055F70A /* FYFMovieModel.m */; };
+		0F786A1B289A7AD00055F70A /* FYFMovieCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F786A09289A7ACF0055F70A /* FYFMovieCollectionView.m */; };
+		0F786A1D289A7AD00055F70A /* FYFImageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F786A0F289A7ACF0055F70A /* FYFImageCollectionView.m */; };
+		0F786A1F289A7AD00055F70A /* FYFMovieCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F786A14289A7ACF0055F70A /* FYFMovieCollectionViewCell.m */; };
+		0F786A21289A7AD00055F70A /* FYFRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F786A16289A7AD00055F70A /* FYFRootViewController.m */; };
+		0F786A29289A7D1C0055F70A /* FYFImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F786A24289A7D1C0055F70A /* FYFImageModel.m */; };
+		0F786A2A289A7D1C0055F70A /* FYFImagePreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F786A25289A7D1C0055F70A /* FYFImagePreViewController.m */; };
+		0F786A2B289A7D1C0055F70A /* FYFImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F786A28289A7D1C0055F70A /* FYFImageCollectionViewCell.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,11 +45,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F786A08289A7ACF0055F70A /* FYFMovieModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYFMovieModel.m; sourceTree = "<group>"; };
+		0F786A09289A7ACF0055F70A /* FYFMovieCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYFMovieCollectionView.m; sourceTree = "<group>"; };
+		0F786A0C289A7ACF0055F70A /* FYFMovieCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYFMovieCollectionView.h; sourceTree = "<group>"; };
+		0F786A0D289A7ACF0055F70A /* FYFMovieCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYFMovieCollectionViewCell.h; sourceTree = "<group>"; };
+		0F786A0F289A7ACF0055F70A /* FYFImageCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYFImageCollectionView.m; sourceTree = "<group>"; };
+		0F786A12289A7ACF0055F70A /* FYFImageCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYFImageCollectionView.h; sourceTree = "<group>"; };
+		0F786A13289A7ACF0055F70A /* FYFMovieModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYFMovieModel.h; sourceTree = "<group>"; };
+		0F786A14289A7ACF0055F70A /* FYFMovieCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYFMovieCollectionViewCell.m; sourceTree = "<group>"; };
+		0F786A16289A7AD00055F70A /* FYFRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYFRootViewController.m; sourceTree = "<group>"; };
+		0F786A18289A7AD00055F70A /* FYFRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYFRootViewController.h; sourceTree = "<group>"; };
+		0F786A23289A7D1C0055F70A /* FYFImagePreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYFImagePreViewController.h; sourceTree = "<group>"; };
+		0F786A24289A7D1C0055F70A /* FYFImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYFImageModel.m; sourceTree = "<group>"; };
+		0F786A25289A7D1C0055F70A /* FYFImagePreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYFImagePreViewController.m; sourceTree = "<group>"; };
+		0F786A26289A7D1C0055F70A /* FYFImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYFImageModel.h; sourceTree = "<group>"; };
+		0F786A27289A7D1C0055F70A /* FYFImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYFImageCollectionViewCell.h; sourceTree = "<group>"; };
+		0F786A28289A7D1C0055F70A /* FYFImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYFImageCollectionViewCell.m; sourceTree = "<group>"; };
 		0FB8D1431304369F1057B665 /* Pods-FYFImagePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFImagePicker_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FYFImagePicker_Tests/Pods-FYFImagePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1AEB5BC7D6EF72CB114AD649 /* Pods-FYFImagePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFImagePicker_Tests.release.xcconfig"; path = "Target Support Files/Pods-FYFImagePicker_Tests/Pods-FYFImagePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3594F663D5903CC14981F65B /* Pods_FYFImagePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYFImagePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3935C031604B077D9AFC1D7A /* Pods-FYFImagePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFImagePicker_Example.release.xcconfig"; path = "Target Support Files/Pods-FYFImagePicker_Example/Pods-FYFImagePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3C1B74F16B2D5B56614472D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3C1B74F16B2D5B56614472D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FYFImagePicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYFImagePicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,10 +87,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		691A466393F5B0E01EACE646 /* Pods_FYFImagePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYFImagePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		75C0A159659FCB3B52BB45E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		75C0A159659FCB3B52BB45E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7845F4E6ED69B4751F015590 /* Pods-FYFImagePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFImagePicker_Example.debug.xcconfig"; path = "Target Support Files/Pods-FYFImagePicker_Example/Pods-FYFImagePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8CD2FE6D421D8273743DF3C0 /* FYFImagePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FYFImagePicker.podspec; path = ../FYFImagePicker.podspec; sourceTree = "<group>"; };
+		8CD2FE6D421D8273743DF3C0 /* FYFImagePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FYFImagePicker.podspec; path = ../FYFImagePicker.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +127,6 @@
 				0FB8D1431304369F1057B665 /* Pods-FYFImagePicker_Tests.debug.xcconfig */,
 				1AEB5BC7D6EF72CB114AD649 /* Pods-FYFImagePicker_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +172,22 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* FYFViewController.h */,
 				6003F5A6195388D20070C39A /* FYFViewController.m */,
+				0F786A18289A7AD00055F70A /* FYFRootViewController.h */,
+				0F786A16289A7AD00055F70A /* FYFRootViewController.m */,
+				0F786A12289A7ACF0055F70A /* FYFImageCollectionView.h */,
+				0F786A0F289A7ACF0055F70A /* FYFImageCollectionView.m */,
+				0F786A27289A7D1C0055F70A /* FYFImageCollectionViewCell.h */,
+				0F786A28289A7D1C0055F70A /* FYFImageCollectionViewCell.m */,
+				0F786A26289A7D1C0055F70A /* FYFImageModel.h */,
+				0F786A24289A7D1C0055F70A /* FYFImageModel.m */,
+				0F786A23289A7D1C0055F70A /* FYFImagePreViewController.h */,
+				0F786A25289A7D1C0055F70A /* FYFImagePreViewController.m */,
+				0F786A0C289A7ACF0055F70A /* FYFMovieCollectionView.h */,
+				0F786A09289A7ACF0055F70A /* FYFMovieCollectionView.m */,
+				0F786A0D289A7ACF0055F70A /* FYFMovieCollectionViewCell.h */,
+				0F786A14289A7ACF0055F70A /* FYFMovieCollectionViewCell.m */,
+				0F786A13289A7ACF0055F70A /* FYFMovieModel.h */,
+				0F786A08289A7ACF0055F70A /* FYFMovieModel.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -248,6 +287,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "786452470@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = XW3FH2EE7W;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +300,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -346,11 +389,21 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FYFImagePicker_Example/Pods-FYFImagePicker_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FYFAppAuthorizations/FYFAppAuthorizations.framework",
+				"${BUILT_PRODUCTS_DIR}/FYFDefines/FYFDefines.framework",
 				"${BUILT_PRODUCTS_DIR}/FYFImagePicker/FYFImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/FYFTableCollectionMiddleWare/FYFTableCollectionMiddleWare.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FYFAppAuthorizations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FYFDefines.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FYFImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FYFTableCollectionMiddleWare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,7 +417,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F786A1A289A7AD00055F70A /* FYFMovieModel.m in Sources */,
+				0F786A1D289A7AD00055F70A /* FYFImageCollectionView.m in Sources */,
+				0F786A2A289A7D1C0055F70A /* FYFImagePreViewController.m in Sources */,
 				6003F59E195388D20070C39A /* FYFAppDelegate.m in Sources */,
+				0F786A21289A7AD00055F70A /* FYFRootViewController.m in Sources */,
+				0F786A1B289A7AD00055F70A /* FYFMovieCollectionView.m in Sources */,
+				0F786A2B289A7D1C0055F70A /* FYFImageCollectionViewCell.m in Sources */,
+				0F786A29289A7D1C0055F70A /* FYFImageModel.m in Sources */,
+				0F786A1F289A7AD00055F70A /* FYFMovieCollectionViewCell.m in Sources */,
 				6003F5A7195388D20070C39A /* FYFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -494,6 +555,7 @@
 			baseConfigurationReference = 7845F4E6ED69B4751F015590 /* Pods-FYFImagePicker_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XW3FH2EE7W;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FYFImagePicker/FYFImagePicker-Prefix.pch";
 				INFOPLIST_FILE = "FYFImagePicker/FYFImagePicker-Info.plist";
@@ -510,6 +572,7 @@
 			baseConfigurationReference = 3935C031604B077D9AFC1D7A /* Pods-FYFImagePicker_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XW3FH2EE7W;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FYFImagePicker/FYFImagePicker-Prefix.pch";
 				INFOPLIST_FILE = "FYFImagePicker/FYFImagePicker-Info.plist";
