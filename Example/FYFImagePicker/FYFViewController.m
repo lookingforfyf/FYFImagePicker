@@ -70,7 +70,6 @@
                 return;
             }
             [MBProgressHUD showHUDAddedTo:strongSelf.view animated:YES];
-//            [[KSToast toast] ks_showLoadingWithTitle:@"资源加载中......" inView:strongSelf.view];
         };
         _imagePicker.imagePickerCompletion = ^(NSArray<UIImage *> * _Nonnull images, NSArray<NSURL *> * _Nonnull imageUrls) {
             NSLog(@"images:%@",images.debugDescription);
@@ -85,7 +84,6 @@
 
         _imagePicker.cancelPickerCompletion = ^{
             [MBProgressHUD hideHUDForView:weakSelf.view animated:YES];
-//            [[KSToast toast] ks_hiddenAllToasts];
         };
         
         if (@available(iOS 14.0, *)) {
@@ -98,7 +96,6 @@
 }
 
 - (void)renderImages:(NSArray<UIImage *>*)images imageUrls:(NSArray<NSURL *>*)imageUrls {
-//    [[KSToast toast] ks_hiddenAllToasts];
     [MBProgressHUD hideHUDForView:self.view animated:YES];
     
     NSMutableArray *imageModels = [NSMutableArray arrayWithCapacity:images.count];
@@ -110,9 +107,8 @@
 }
 
 - (void)renderMovieDatas:(NSArray<NSData *>*)movieDatas movieUrls:(NSArray<NSURL *>*)movieUrls {
-//    [[KSToast toast] ks_hiddenAllToasts];
-    
     [MBProgressHUD hideHUDForView:self.view animated:YES];
+    
     NSMutableArray *movieModels = [NSMutableArray arrayWithCapacity:movieDatas.count];
     [movieDatas enumerateObjectsUsingBlock:^(NSData*  _Nonnull movieData, NSUInteger idx, BOOL * _Nonnull stop) {
         FYFMovieModel *movieModel = [[FYFMovieModel alloc] initWithMovieData:movieData movieUrl:movieUrls[idx] moviePreViewImage:[self requestVideoPreViewImage:movieUrls[idx]]];
