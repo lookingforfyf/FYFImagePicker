@@ -180,7 +180,7 @@
 		1F93C367011C3F9F3108A8952AC5B762 /* FYFAppAuthorizations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYFAppAuthorizations.h; path = FYFAppAuthorizations/Classes/FYFAppAuthorizations.h; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20920D2584783DA9BF51FCD475D79EEF /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		20C13E5E63F4BC90E8E3FB95B4A62A8A /* FYFImagePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FYFImagePicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		20C13E5E63F4BC90E8E3FB95B4A62A8A /* FYFImagePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FYFImagePicker.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		254025DE053DF21F75950587A8919C6C /* FYFDefines.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FYFDefines.modulemap; sourceTree = "<group>"; };
 		2707D329322F6491E98CA3B2B2F28C16 /* Pods-FYFImagePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FYFImagePicker_Example-umbrella.h"; sourceTree = "<group>"; };
 		2A70C3BEC69E8FBED06D8EC610513184 /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
@@ -210,7 +210,7 @@
 		6E91F0FB45F752F7A5804C2B7CCF8EE2 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		71536B282A299631B547735864CFA548 /* FYFDefines-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FYFDefines-Info.plist"; sourceTree = "<group>"; };
 		742CA1B7FDA77681B9F61EF7EF6AA12A /* FYFImagePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYFImagePicker.debug.xcconfig; sourceTree = "<group>"; };
-		7762F9A87CE767E6F54DB2C810E890D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7762F9A87CE767E6F54DB2C810E890D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		778328054870C2C1CA4BF3E82CE035A4 /* UITableView+Middleware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+Middleware.h"; path = "FYFTableCollectionMiddleWare/Classes/UITableView+Middleware.h"; sourceTree = "<group>"; };
 		78460AD7725EC597BF0779FB7FCD7C2D /* FYFTableMiddleware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYFTableMiddleware.m; path = FYFTableCollectionMiddleWare/Classes/FYFTableMiddleware.m; sourceTree = "<group>"; };
 		79CEBB301FE2D8B36760E88A03555344 /* FYFImagePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYFImagePicker.release.xcconfig; sourceTree = "<group>"; };
@@ -238,7 +238,7 @@
 		95A1A3C51BAE0944CE843C7AA3B9075A /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		97595BE9A7304EF2D0D7B2326ABF14AE /* FYFImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYFImagePickerController.m; path = FYFImagePicker/Classes/FYFImagePickerController.m; sourceTree = "<group>"; };
 		9A94E5A4E1DD0C47E07822ECB4C50D91 /* FYFAppAuthorizations-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FYFAppAuthorizations-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EC66811A6BE958245770E432F9D17EC /* FYFDefines.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = FYFDefines.modulemap; path = FYFDefines/Classes/FYFDefines.modulemap; sourceTree = "<group>"; };
 		9ED7F1B18C5F092791AB3986FC5A29A3 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
 		9EE57DF174BE1652CFF412141C0E8579 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -262,7 +262,7 @@
 		B74FC201BE7381AA75A7FEA97495CB37 /* Pods-FYFImagePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FYFImagePicker_Tests.modulemap"; sourceTree = "<group>"; };
 		B7F5C62AD9F7DAAB10530A87E7E5B1D8 /* FYFImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYFImagePicker-prefix.pch"; sourceTree = "<group>"; };
 		BAD6C7F80D0921C4EF06EE57D61A7103 /* FYFColorDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYFColorDefine.h; path = FYFDefines/Classes/FYFColorDefine.h; sourceTree = "<group>"; };
-		BE9769CBB0A962B2953E362F2AA6DD75 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BE9769CBB0A962B2953E362F2AA6DD75 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C062A87327D1D110346E609748A468B9 /* UICollectionView+Middleware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+Middleware.h"; path = "FYFTableCollectionMiddleWare/Classes/UICollectionView+Middleware.h"; sourceTree = "<group>"; };
 		C0D35198323214D3949E8C5F401E9353 /* FYFAppAuthorizations-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYFAppAuthorizations-prefix.pch"; sourceTree = "<group>"; };
 		C4FAC1DDDDCC297BE2FCB62744CC1CD0 /* FYFImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYFImagePicker-umbrella.h"; sourceTree = "<group>"; };
@@ -401,7 +401,6 @@
 				20920D2584783DA9BF51FCD475D79EEF /* MBProgressHUD.m */,
 				8F30AD3BA64D00F8BF207EDAC52BC2C4 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -435,7 +434,6 @@
 				6C6C93454E2FD2D5E1B7ED8BF6A6840B /* ViewController+MASAdditions.m */,
 				6B39EEB306AF7408F2ADCF7AE6674708 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -547,7 +545,6 @@
 				8FD1A295EE502A9358BD53D26B17E5B1 /* UITableView+Middleware.m */,
 				D75E07D2D1038D506EE247F3B3DE63EC /* Support Files */,
 			);
-			name = FYFTableCollectionMiddleWare;
 			path = FYFTableCollectionMiddleWare;
 			sourceTree = "<group>";
 		};
@@ -591,7 +588,6 @@
 				ED926B40E137282F5E19BF2F764EECF7 /* FYFPhotoAuthorization.m */,
 				1B8176DDDDF604A3F72B91D579A14B16 /* Support Files */,
 			);
-			name = FYFAppAuthorizations;
 			path = FYFAppAuthorizations;
 			sourceTree = "<group>";
 		};
@@ -655,7 +651,6 @@
 				C86F4D183EAADEB25CE71CD86FDBF500 /* FYFViewDefine.h */,
 				0127DBDA2008965C2908F494733B4A7C /* Support Files */,
 			);
-			name = FYFDefines;
 			path = FYFDefines;
 			sourceTree = "<group>";
 		};
@@ -1441,8 +1436,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
