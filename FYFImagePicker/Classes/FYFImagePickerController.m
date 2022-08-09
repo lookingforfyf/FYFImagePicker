@@ -238,21 +238,21 @@ API_AVAILABLE(ios(14))
     }
 }
 
-- (PHPickerViewController *)phImagePickerViewController {
+- (PHPickerViewController *)phImagePickerViewController  API_AVAILABLE(ios(14)){
     if (!_phImagePickerViewController) {
         _phImagePickerViewController = [self createPHPickerViewController:FYFImagePickerSourceTypePhotoLibraryImage];
     }
     return _phImagePickerViewController;
 }
 
-- (PHPickerViewController *)phVideoPickerViewController {
+- (PHPickerViewController *)phVideoPickerViewController  API_AVAILABLE(ios(14)){
     if (!_phVideoPickerViewController) {
         _phVideoPickerViewController = [self createPHPickerViewController:FYFImagePickerSourceTypePhotoLibraryVideo];
     }
     return _phVideoPickerViewController;
 }
 
-- (PHPickerViewController *)createPHPickerViewController:(FYFImagePickerSourceType)sourceType {
+- (PHPickerViewController *)createPHPickerViewController:(FYFImagePickerSourceType)sourceType  API_AVAILABLE(ios(14)){
     PHPickerConfiguration *config = [PHPickerConfiguration new];
     if (_selectionLimit > 9) {
         _selectionLimit = 9;
@@ -289,7 +289,7 @@ API_AVAILABLE(ios(14))
     }
 }
 
-- (void)loadImages:(NSArray<PHPickerResult *> *)results {
+- (void)loadImages:(NSArray<PHPickerResult *> *)results  API_AVAILABLE(ios(14)){
     NSMutableArray *images = [NSMutableArray arrayWithCapacity:results.count];
     NSMutableArray *imageUrls = [NSMutableArray arrayWithCapacity:results.count];
     __weak typeof(self) weakSelf = self;
@@ -305,7 +305,7 @@ API_AVAILABLE(ios(14))
                     
                     NSData *imageData = UIImageJPEGRepresentation(image, 1);
                     NSError *fileManagerError = nil;
-                    NSURL *tempImageUrl = [FYFImagePickerController ks_tempImageUrl];
+                    NSURL *tempImageUrl = [FYFImagePickerController fyf_tempImageUrl];
                     BOOL writeSuccesss = [imageData writeToURL:tempImageUrl atomically:YES];
                     if (image) {
                         [images addObject:image];
@@ -322,7 +322,7 @@ API_AVAILABLE(ios(14))
                         
                         NSData *imageData = UIImageJPEGRepresentation(image, 1);
                         NSError *fileManagerError = nil;
-                        NSURL *tempImageUrl = [FYFImagePickerController ks_tempImageUrl];
+                        NSURL *tempImageUrl = [FYFImagePickerController fyf_tempImageUrl];
                         BOOL writeSuccesss = [imageData writeToURL:tempImageUrl atomically:YES];
                         if (image) {
                             [images addObject:image];
@@ -351,7 +351,7 @@ API_AVAILABLE(ios(14))
     });
 }
 
-- (void)loadVideos:(NSArray<PHPickerResult *> *)results {
+- (void)loadVideos:(NSArray<PHPickerResult *> *)results  API_AVAILABLE(ios(14)){
     NSMutableArray *videoDatas = [NSMutableArray arrayWithCapacity:results.count];
     NSMutableArray *videoUrls = [NSMutableArray arrayWithCapacity:results.count];
     __weak typeof(self) weakSelf = self;
@@ -360,7 +360,7 @@ API_AVAILABLE(ios(14))
             dispatch_semaphore_t semaphore = dispatch_semaphore_create(0);
             [result.itemProvider loadFileRepresentationForTypeIdentifier:(NSString *)kUTTypeMovie completionHandler:^(NSURL * _Nullable url, NSError * _Nullable error) {
                 NSData *videoData = [NSData dataWithContentsOfURL:url]; /// 视频本地URL
-                NSURL *tempVideoUrl = [FYFImagePickerController ks_tempVideoUrl];
+                NSURL *tempVideoUrl = [FYFImagePickerController fyf_tempVideoUrl];
                 BOOL writeSuccess = [videoData writeToURL:tempVideoUrl atomically:YES];
                 if (videoData) {
                     [videoDatas addObject:videoData];
@@ -403,7 +403,7 @@ API_AVAILABLE(ios(14))
             }
             NSData *videoData = [NSData dataWithContentsOfFile:path];
             NSError *fileManagerError = nil;
-            NSURL *tempVideoUrl = [FYFImagePickerController ks_tempVideoUrl];
+            NSURL *tempVideoUrl = [FYFImagePickerController fyf_tempVideoUrl];
             BOOL writeSuccesss = [videoData writeToURL:tempVideoUrl atomically:YES];
             NSArray *videoDatas;
             NSArray *videoUrls;
@@ -429,7 +429,7 @@ API_AVAILABLE(ios(14))
             
             NSData *imageData = UIImageJPEGRepresentation(image, 1);
             NSError *fileManagerError = nil;
-            NSURL *tempImageUrl = [FYFImagePickerController ks_tempImageUrl];
+            NSURL *tempImageUrl = [FYFImagePickerController fyf_tempImageUrl];
             BOOL writeSuccesss = [imageData writeToURL:tempImageUrl atomically:YES];
             
             NSArray *images;
@@ -475,11 +475,11 @@ API_AVAILABLE(ios(14))
 }
 
 #pragma mark - Private
-+ (NSString *)ks_tempImageUrl {
++ (NSURL *)fyf_tempImageUrl {
     return [NSURL fileURLWithPath:[[NSTemporaryDirectory() stringByAppendingPathComponent:[[NSUUID UUID] UUIDString]] stringByAppendingPathExtension:@"jpg"]];
 }
 
-+ (NSString *)ks_tempVideoUrl {
++ (NSURL *)fyf_tempVideoUrl {
     return [NSURL fileURLWithPath:[[NSTemporaryDirectory() stringByAppendingPathComponent:[[NSUUID UUID] UUIDString]] stringByAppendingPathExtension:@"MOV"]];
 }
 
